@@ -13,7 +13,7 @@ options.add_experimental_option('useAutomationExtension', False)
 options.add_argument("--user-data-dir=C:/emp/selenium") 
 
 # ChromeDriver 드라이버 경로
-chrome_driver_path = "C:/python/chromedriver-win64/chromedriver.exe" #chromedriver 필수로 추가
+chrome_driver_path = "C:/python/chromedriver-win64/chromedriver.exe" #chromedriver.exe 필수로 추가
 service = Service(chrome_driver_path)
 driver = webdriver.Chrome(service=service, options=options)
 
