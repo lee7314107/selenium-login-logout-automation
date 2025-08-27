@@ -5,26 +5,26 @@
 
 ✅ 주요 기능
 
- 🔐 올바른 사용자 계정 입력 후 로그인  
- 📩 로그인 후, 정상 Toast 팝업 검증  
- 🔘 로그아웃 버튼 클릭  
- ✔️ 로그아웃 정상 처리
+ - 올바른 사용자 계정 입력 후 로그인  
+ - 로그인 후, 정상 Toast 팝업 검증  
+ - 로그아웃 버튼 클릭  
+ - 로그아웃 정상 처리
 
 
 🛠️ 사용 기술
 
- 🐍 Python v3.13.7  
- 🤖 Selenium v4.35.0  
- 🌐 ChromeDriver v139.0.7258.128
+ - Python v3.13.7  
+ - Selenium v4.35.0  
+ - ChromeDriver v139.0.7258.128
 
 
 🚀 환경 준비
 
- 🐍 Python(v3.13.7) 설치
- 📦 Selenium(v4.35.0) 설치 ('pip install selenium' 입력)
- 🌐 Chrome 브라우저 버전 확인 (Chrome 주소창에 'chrome://version' 입력)
- ⚙️ ChromeDriver 다운로드 (Chrome 브라우저 버전과 동일한 버전으로 다운로드)
- 📂 ChromeDriver 경로 확인 (ex. 'C:\python\chromedriver-win64')
+ - Python(v3.13.7) 설치
+ - Selenium(v4.35.0) 설치 ('pip install selenium' 입력)
+ - Chrome 브라우저 버전 확인 (Chrome 주소창에 'chrome://version' 입력)
+ - ChromeDriver 다운로드 (Chrome 브라우저 버전과 동일한 버전으로 다운로드)
+ - ChromeDriver 경로 확인 (ex. 'C:\python\chromedriver-win64')
 
 
 🧭 소스코드 내 경로 설정 확인
@@ -38,15 +38,15 @@
 
 
 ⚙️동작 흐름
- 🔎 Chrome 브라우저 실행 후, 로그인 페이지 접속 
- 🔐 사용자 ID,PW 자동으로 입력하여 로그인 시도
- ✅ 로그인 성공 메시지(Toast 팝업) 확인
- ❎ 해당 팝업 닫고, 로그아웃 버튼 클릭
- ✔️ 로그아웃 처리되었는지 확인
- 🚪 Chrome 브라우저 종료
+ - Chrome 브라우저 실행 후, 로그인 페이지 접속 
+ - 사용자 ID,PW 자동으로 입력하여 로그인 시도
+ - 로그인 성공 메시지(Toast 팝업) 확인
+ - 해당 팝업 닫고, 로그아웃 버튼 클릭
+ - 로그아웃 처리되었는지 확인
+ - Chrome 브라우저 종료
 
 
 📝참고 사항
 
- ⏳'time.sleep()' 으로 대기 시간을 주고 있어 네트워크 상황에 따라 수정 가능합니다.
- 🔔로그인 alert() 팝업은 time.sleep(2) 후 자동으로 닫힙니다.
+ - 'time.sleep()' 으로 대기 시간을 주고 있어 네트워크 상황에 따라 수정 가능합니다.
+ - 로그인 alert() 팝업은 time.sleep(2) 후 자동으로 닫힙니다.
