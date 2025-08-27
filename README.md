@@ -24,26 +24,26 @@
  - Selenium(v4.35.0) 설치 ('pip install selenium' 입력)
  - Chrome 브라우저 버전 확인 (Chrome 주소창에 'chrome://version' 입력)
  - ChromeDriver 다운로드 (Chrome 브라우저 버전과 동일한 버전으로 다운로드)
- - ChromeDriver 경로 확인 (ex. 'C:\python\chromedriver-win64')<br><br>
+ - ChromeDriver 경로 확인 (ex. 'C:/python/chromedriver-win64')<br><br>
 
 
 
 🧭 소스코드 내 경로 설정 확인
  - login_logout.py 파일에서 아래 경로는 본인 PC에 맞게 수정합니다.
- - chrome_driver_path = 'C:\python\chromedriver-win64/chromedriver.exe' (chromedriver.exe 필수 입력)<br><br>
+ - chrome_driver_path = 'C:/python/chromedriver-win64/chromedriver.exe' (chromedriver.exe 필수 입력)<br><br>
 
 
 
 💻스크립트 실행
  - vscode 에디터에서 스크립트가 있는 폴더로 이동 후, 아래 명령어 입력하여 실행합니다.
  - 'python login_logout.py'<br><br>
-<img width="1084" height="159" alt="image" src="https://github.com/user-attachments/assets/0bb22a4a-b834-4d93-b415-8ed7d7db8a59" /><br><br>
+<img width="1084" height="159" alt="image" src="https://github.com/user-attachments/assets/0bb22a4a-b834-4d93-b415-8ed7d7db8a59"><br><br>
 
 
 
 📌 실행 결과
  - Chrome 브라우저가 자동으로 실행되며, 로그인 후 아래와 같은 팝업이 표시됩니다.
-<img width="1022" height="783" alt="image" src="https://github.com/user-attachments/assets/f7e1d7e5-e4a7-4c99-b88a-5693cc9f1746" /><br><br>
+<img width="1022" height="783" alt="image" src="https://github.com/user-attachments/assets/f7e1d7e5-e4a7-4c99-b88a-5693cc9f1746"><br><br>
  - 로그인 후, 로그아웃 버튼이 자동으로 클릭되며 로그아웃이 정상적으로 처리됩니다.<br><br>
 
 
