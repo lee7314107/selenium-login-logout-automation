@@ -1,4 +1,4 @@
-<img width="1084" height="159" alt="image" src="https://github.com/user-attachments/assets/5af41610-bfd2-488a-a1df-53a183562bbd" />🧪 Selenium 로그인/로그아웃 자동화
+🧪 Selenium 로그인/로그아웃 자동화
 
  - 이 프로젝트는 Python의 Selenium 라이브러리를 사용하여 'https://the-internet.herokuapp.com/login' 공개용 웹사이트에서 로그인 및 로그아웃 기능을 자동화한 스크립트입니다.<br><br>
 
@@ -36,8 +36,8 @@
 
 💻스크립트 실행
  - vscode 에디터에서 스크립트가 있는 폴더로 이동 후, 아래 명령어 입력하여 실행합니다.
- - 'python login_logout.py'<br><br>
-<img width="1084" height="159" alt="image" src="https://github.com/user-attachments/assets/0bb22a4a-b834-4d93-b415-8ed7d7db8a59" />
+ - 'python login_logout.py'
+<img width="1084" height="159" alt="image" src="https://github.com/user-attachments/assets/0bb22a4a-b834-4d93-b415-8ed7d7db8a59" /><br><br>
 
 
 
