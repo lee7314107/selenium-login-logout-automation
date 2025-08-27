@@ -3,6 +3,7 @@
  - 이 프로젝트는 Python의 Selenium 라이브러리를 사용하여 'https://the-internet.herokuapp.com/login' 공개용 웹사이트에서 로그인 및 로그아웃 기능을 자동화한 스크립트입니다.
 
 
+
 ✅ 주요 기능
 
  - 올바른 사용자 계정 입력 후 로그인  
@@ -11,11 +12,13 @@
  - 로그아웃 정상 처리
 
 
+
 🛠️ 사용 기술
 
  - Python v3.13.7  
  - Selenium v4.35.0  
  - ChromeDriver v139.0.7258.128
+
 
 
 🚀 환경 준비
@@ -27,14 +30,17 @@
  - ChromeDriver 경로 확인 (ex. 'C:\python\chromedriver-win64')
 
 
+
 🧭 소스코드 내 경로 설정 확인
  - login_logout.py 파일에서 아래 경로는 본인 PC에 맞게 수정하세요.
  - chrome_driver_path = 'C:\python\chromedriver-win64/chromedriver.exe' (chromedriver.exe 필수 입력)
 
 
+
 💻스크립트 실행
  - vscode 에디터에서 스크립트가 있는 폴더로 이동 후, 아래 명령어 실행
  - 'python login_logout.py'
+
 
 
 ⚙️동작 흐름
@@ -44,6 +50,7 @@
  - 해당 팝업 닫고, 로그아웃 버튼 클릭
  - 로그아웃 처리되었는지 확인
  - Chrome 브라우저 종료
+
 
 
 📝참고 사항
