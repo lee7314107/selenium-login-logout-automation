@@ -42,7 +42,7 @@
 
 
 📌 실행 결과
- - Chrome 브라우저가 자동으로 실행되며, 로그인 후 아래와 같은 팝업이 표시됩니다.<br>
+ - Chrome 브라우저가 자동으로 실행되며, 로그인 후 아래와 같은 팝업이 표시됩니다.<br><br>
 <img width="1022" height="783" alt="image" src="https://github.com/user-attachments/assets/f7e1d7e5-e4a7-4c99-b88a-5693cc9f1746"><br><br>
  - 로그인 팝업 노출 후, 로그아웃 버튼이 자동으로 클릭되며 로그아웃이 정상적으로 처리됩니다.<br><br>
 
