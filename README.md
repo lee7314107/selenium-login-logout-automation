@@ -34,7 +34,7 @@
 
 
 
-💻스크립트 실행
+💻 스크립트 실행
  - vscode 에디터에서 스크립트가 있는 폴더로 이동 후, 아래 명령어 입력하여 실행합니다.
  - 'python login_logout.py'<br><br>
 <img width="1084" height="159" alt="image" src="https://github.com/user-attachments/assets/0bb22a4a-b834-4d93-b415-8ed7d7db8a59"><br><br>
@@ -47,7 +47,7 @@
  - 로그인 팝업 노출 후, 자동으로 닫히고 로그아웃 버튼이 클릭되며 로그아웃이 정상적으로 처리됩니다.<br><br>
 
 
-⚙️동작 흐름
+⚙️ 동작 흐름
  1. Chrome 브라우저 실행 후, 로그인 페이지 접속 
  2. 사용자 ID,PW 자동으로 입력하여 로그인 시도
  3. 로그인 성공 Toast 팝업 확인
@@ -57,7 +57,7 @@
 
 
 
-📝참고 사항
+📝 참고 사항
 
  - 'time.sleep()' 으로 대기 시간을 주고 있어 네트워크 상황에 따라 수정 가능합니다.
  - 로그인 alert 팝업은 time.sleep(2) 후, 자동으로 닫히도록 설정합니다.<br><br>
