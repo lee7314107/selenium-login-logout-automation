@@ -7,14 +7,14 @@
  - 올바른 사용자 계정 입력 후 로그인  
  - 로그인 후, 정상 Toast 팝업 검증  
  - 로그아웃 버튼 클릭  
- - 로그아웃 정상 처리
+ - 로그아웃 정상 처리<br><br>
 
 
 🛠️ 사용 기술
 
  - Python v3.13.7  
  - Selenium v4.35.0  
- - ChromeDriver v139.0.7258.128
+ - ChromeDriver v139.0.7258.128<br><br>
 
 
 
@@ -24,19 +24,19 @@
  - Selenium(v4.35.0) 설치 ('pip install selenium' 입력)
  - Chrome 브라우저 버전 확인 (Chrome 주소창에 'chrome://version' 입력)
  - ChromeDriver 다운로드 (Chrome 브라우저 버전과 동일한 버전으로 다운로드)
- - ChromeDriver 경로 확인 (ex. 'C:\python\chromedriver-win64')
+ - ChromeDriver 경로 확인 (ex. 'C:\python\chromedriver-win64')<br><br>
 
 
 
 🧭 소스코드 내 경로 설정 확인
  - login_logout.py 파일에서 아래 경로는 본인 PC에 맞게 수정하세요.
- - chrome_driver_path = 'C:\python\chromedriver-win64/chromedriver.exe' (chromedriver.exe 필수 입력)
+ - chrome_driver_path = 'C:\python\chromedriver-win64/chromedriver.exe' (chromedriver.exe 필수 입력)<br><br>
 
 
 
 💻스크립트 실행
  - vscode 에디터에서 스크립트가 있는 폴더로 이동 후, 아래 명령어 실행
- - 'python login_logout.py'
+ - 'python login_logout.py'<br><br>
 
 
 
@@ -46,11 +46,11 @@
  - 로그인 성공 메시지(Toast 팝업) 확인
  - 해당 팝업 닫고, 로그아웃 버튼 클릭
  - 로그아웃 처리되었는지 확인
- - Chrome 브라우저 종료
+ - Chrome 브라우저 종료<br><br>
 
 
 
 📝참고 사항
 
  - 'time.sleep()' 으로 대기 시간을 주고 있어 네트워크 상황에 따라 수정 가능합니다.
- - 로그인 alert() 팝업은 time.sleep(2) 후 자동으로 닫힙니다.
+ - 로그인 alert() 팝업은 time.sleep(2) 후 자동으로 닫힙니다.<br><br>
