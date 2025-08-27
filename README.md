@@ -36,7 +36,7 @@
 
 💻스크립트 실행
  - vscode 에디터에서 스크립트가 있는 폴더로 이동 후, 아래 명령어 입력하여 실행합니다.
- - 'python login_logout.py'
+ - 'python login_logout.py'<br>
 <img width="1084" height="159" alt="image" src="https://github.com/user-attachments/assets/0bb22a4a-b834-4d93-b415-8ed7d7db8a59" /><br><br>
 
 
